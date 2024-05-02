@@ -34,6 +34,8 @@ public class SubmitOrderTest extends BaseTest {
 		String confirmMessage = confirmPage.getConfirmMessage();
 		System.out.println(confirmMessage);
 		assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		
+//		Done Testing
 	}
 	
 	@Test(dependsOnMethods = {"submitOrder"}, dataProvider="getData")
