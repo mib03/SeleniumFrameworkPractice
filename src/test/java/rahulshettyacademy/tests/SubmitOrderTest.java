@@ -50,6 +50,11 @@ public class SubmitOrderTest extends BaseTest {
 		System.out.println("GitTest");
 	}
 	
+	@Test
+	public void testsGit() {
+		System.out.println("GitTest");
+	}
+	
 	
 	
 //	Extent Reports
