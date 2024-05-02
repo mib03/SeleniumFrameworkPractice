@@ -45,6 +45,11 @@ public class SubmitOrderTest extends BaseTest {
 		assertTrue(ordersPage.verifyProducts(input.get("product")));
 	}
 	
+	@Test
+	public void testGit() {
+		System.out.println("GitTest");
+	}
+	
 	
 	
 //	Extent Reports
